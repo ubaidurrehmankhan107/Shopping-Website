@@ -11,27 +11,28 @@
 
     <!-- CSS Link -->
     
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
+    
 
 </head>
 <body>
     <!-- navbar -->
 
-    <div class="container-fluid p-0">
+    <div class="container-fluid p-0 ">
         <!-- first child -->
-        <nav class="navbar navbar-expand-lg  bg-info">
+        <nav class="navbar navbar-expand-lg  ">
   <div class="container-fluid">
-    <img src="./images/logo.png" class="logo" alt="logo">
+    <img src="./images/logos.png" class="logo" alt="logo">
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/">Home</a>
+          <a class="nav-link " aria-current="page" href="/">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Products</a>
+          <a class="nav-link " href="#">Products</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Register</a>
@@ -56,11 +57,33 @@
     </div>
 
 
+<!-- Hero Section Starts Here -->
+
+<div class="hero-image">
+ <div class="hero-text">
+  <h1>Shop the World, One Click Away</h1>
+  <p>Best & Modern Products Of Your Need On Our Shop</p>
+  <button type="button">Shop Now</button>
+  <button type="button">Get Exclusive Offers</button>
+ </div>
+</div>
+
+
+
+
+
+    
+
+
+
+<!-- Hero Section ends Here -->
+
+
 
 <!-- last child -->
-<div class="bg-info">
+<!-- <div class="bg-info">
     <p>All rights reserved &copy;  Designed by Ubaid Ur Rehman 2023</p>
-</div>
+</div> -->
 <!-- bootstrap js link -->
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>

@@ -1,0 +1,134 @@
+
+
+
+
+/* 
+Heading Color (#8A3C17): 
+
+Link Color (#3D1807):
+
+Background Navbar (#04243D): 
+
+Button Color (#8A7317): 
+
+Accent Color (#3D3101): You can use this color as an accent for elements that need to stand out, such as call-to-action buttons, icons, or important highlights. */
+
+
+body, html {
+    height: 100%;
+}
+
+
+ 
+.logo{
+    width: 7%;
+    height: 700%;
+} 
+
+
+.navbar{
+    background-color: #04243D;
+    /* position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 500; */
+}
+
+.navbar .nav-link {
+    color: white;
+}
+
+.navbar .nav-link:hover {
+
+}
+
+/* responsvie for mobile */
+
+.navbar-toggler{
+    color: white;
+}
+
+.navbar-toggler-icon{
+    border: 3px solid #fff;
+    border-radius: 8px;
+}
+
+.navbar-toggler-icon::before,
+.navbar-toggler-icon::after {
+    content: ""; 
+    display: block; 
+    width: 25px; 
+    height: 3px; 
+    background-color: #fff; 
+    margin: 6px 0; 
+
+}
+
+    /* Styles for the hero section */
+
+    .hero-image {
+       
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url("./images/herosection.jpg");
+      
+        background-position: center bottom 70%;
+        /* Set a specific height */
+        height: 70%;
+      
+        /* Position and center the image to scale nicely on all screens */
+        background-position: center 30%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+      }
+      
+      /* Place text in the middle of the image */
+      .hero-text {
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+      }
+
+
+      /* button of hero section */
+      /* Style for Shop Now button */
+button[type="button"] {
+    background-color: #8A7317;
+    color: #fff; 
+    margin-right: 10px;
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s;
+    
+}
+
+
+button[type="button"]:hover {
+    background-color:#7B6714; 
+}
+
+
+button[type="button"] {
+    background-color: #8A7317; 
+    color: #fff; 
+    margin-left: 10px;
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+
+button[type="button"]:hover {
+    background-color: #7B6714; /* Darker green on hover */
+}
+
+
+
+    
